@@ -23,7 +23,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
           ))
         }
       </ul>
-      <button className={styles.actions}>Logout</button>
+      {/* <button className={styles.actions}>Logout</button> */}
     </nav>
   );
 };

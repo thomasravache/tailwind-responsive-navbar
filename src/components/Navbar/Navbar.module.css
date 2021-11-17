@@ -1,5 +1,5 @@
 .navbar {
-  @apply hidden md:flex flex-row items-center justify-between px-8 h-20 rounded-b-3xl bg-white;
+  @apply hidden md:flex flex-row items-center justify-around px-8 h-20 rounded-b-3xl bg-white;
 }
 
 .logo {
@@ -11,7 +11,7 @@
 }
 
 .navItem {
-  @apply w-20 text-gray-400 hover:text-gray-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center;
+  @apply w-20 text-gray-400 hover:text-gray-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center mx-4 lg:mx-10 xl:mx-16 2xl:mx-24;
 }
 
 .selectedNavItem {
