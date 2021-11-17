@@ -42,3 +42,5 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
     </nav>
   );
 };
+
+export default Tabbar;
