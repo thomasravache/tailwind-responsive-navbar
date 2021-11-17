@@ -1,7 +1,7 @@
 .navbar {
   @apply hidden md:flex flex-row items-center justify-around px-8 h-20 rounded-b-3xl bg-white;
 }
-
+/* md se refere ao design de tela media ou seja, quando a tela fica media o display fica flex (md:flex) tornando deixando ele não "hidden"*/
 .logo {
   @apply text-5xl text-gray-800 -mb-1;
 }
