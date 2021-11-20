@@ -1,8 +1,9 @@
 import React from 'react';
 import { CgMonday } from 'react-icons/cg';
 import classNames from 'classnames';
+import ThemeSwitch from './ThemeSwitch';
 
-import styles from './Navbar.module.css';
+import styles from './tailwindStyles/navbarStyles';
 
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   return (
@@ -24,6 +25,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         }
       </ul>
       {/* <button className={styles.actions}>Logout</button> */}
+      <ThemeSwitch />
     </nav>
   );
 };

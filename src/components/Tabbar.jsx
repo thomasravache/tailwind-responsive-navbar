@@ -4,7 +4,8 @@ import { AiFillHome, AiFillCompass } from 'react-icons/ai';
 import { BsFillBagFill, BsFillPersonFill } from 'react-icons/bs';
 import { CgInbox } from 'react-icons/cg';
 
-import styles from './Tabbar.module.css';
+import styles from './tailwindStyles/tabbarStyles';
+import ThemeSwitch from './ThemeSwitch';
 
 const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const getTabIcon = useCallback((item) => {
@@ -39,6 +40,9 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
           </span>
         ))
       }
+      <div className="pl-5 pr-3 -mb-1">
+      <ThemeSwitch />
+      </div>
     </nav>
   );
 };
