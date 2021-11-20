@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaDev } from 'react-icons/fa';
 
-import styles from './App.module.css';
+import styles from './appStyles';
 import useNavigation from './hooks/useNavigation';
 import navigationElements from './data/navigation';
 
